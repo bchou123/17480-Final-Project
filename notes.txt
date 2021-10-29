@@ -1,0 +1,5 @@
+Really hard to parse out an artist and their information. Had to convert to dictionary and go through all the layers.
+
+Inconsistent return object. For example, the artist information returned in chart_artists is different from artist_get.
+artist_get provided more information for an artist than chart_artists. If we are to define a class for it, we would have
+to include all possible fields and then somehow populate them all for all calls to artist related methods. 
